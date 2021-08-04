@@ -12,6 +12,7 @@ import {
 } from './collection.style';
 
 const CollectionPage = ({ collection }) => {
+    console.log(collection, 'TUTUTTUTU');
     const { title, items } = collection;
     return (
         <CollectionPageContainer>
